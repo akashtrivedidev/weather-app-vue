@@ -1,0 +1,18 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"editor.fontFamily": "IBM Plex Mono Regular",
+		"editor.fontSize": 15,
+		"editor.letterSpacing": 0.2,
+		"workbench.colorTheme": "GitHub Dark",
+		"editor.fontLigatures": false,
+		"workbench.colorCustomizations":{
+			"editor.background":"#1a1d20",
+			"sideBar.background":"#1d2024"
+		}
+	}
+}
