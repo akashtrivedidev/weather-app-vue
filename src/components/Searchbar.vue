@@ -14,7 +14,7 @@
     >
       <ul class="">
         <li
-          @click="$emit('location-select', location.name)"
+          @click="()=>changeLocation(location.name)"
           class="text-black p-1 hover:bg-gray-100 cursor-pointer"
           v-for="(location, index) in locations"
           :key="index"
@@ -54,5 +54,10 @@ async function getForecast(current) {
     return response.data;
   }
   return null;
+}
+
+function changeLocation(location) {
+  emits("location-select", location);
+  query.value = "";
 }
 </script>

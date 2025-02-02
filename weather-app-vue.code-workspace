@@ -11,8 +11,8 @@
 		"workbench.colorTheme": "GitHub Dark",
 		"editor.fontLigatures": false,
 		"workbench.colorCustomizations":{
-			"editor.background":"#1a1d20",
-			"sideBar.background":"#1d2024"
+			"editor.background":"#141618",
+			"sideBar.background":"#1b1d21"
 		}
 	}
 }
